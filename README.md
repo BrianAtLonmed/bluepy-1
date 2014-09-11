@@ -38,8 +38,9 @@ The Python files are released into the public domain by their author, Ian Harvey
 Update Notes
 -------------
 
-Fix for no commit
-and str.encode 
+Fix for no flush. File:btle.py, line 161 added flush() 
+Fix for no encode. File:btle.py, line 299 added str.encode
+
 
 
 
